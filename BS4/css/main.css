@@ -7,12 +7,7 @@
 body
 {
     background-image: url(../../images/Fond_LP.jpg);
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: column;
-    padding: 0;
-    margin: 0;
-    height: 100%;
+    width: 100%;
 }
 
 .col-md-8
@@ -24,8 +19,8 @@ body
 
 .col-md-4
 {
-    margin-top: 2%;
-    margin-bottom: 4.05%;
+    margin-top: 1%;
+    margin-bottom: 1%;
     padding-left: 5%;
     padding-right: 5%;
 }
@@ -34,6 +29,7 @@ body
 {
     margin:0;
     padding:0;
+    background-color: rgba(255,255,255,0.5);
 }
 
 .carousel
