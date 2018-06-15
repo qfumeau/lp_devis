@@ -82,14 +82,20 @@ h1
     width: 95%;
     height: 95%;
     background: rgba(0,0,0,.6);
-    padding: 20px 30px !important;
-    font-size: 12px !important;
+    padding: 20px 30px;
+    font-size: 12px;
     margin: auto;
+    line-height: 1;
+}
+
+.hs-form-field
+{
+    margin: 0;
 }
 
 .hs-form .hs-form-required
 {
-    display: none !important;
+    display: none;
 }
 
 .hs-form label
@@ -110,7 +116,7 @@ h1
 textarea,
 .hs-form select
 {
-    width: 100% !important;
+    width: 100%;
     display: block;
     padding: 5px 10px;
     border: none;
@@ -130,7 +136,7 @@ textarea
 {
     color: white;
     margin-bottom: 20px;
-    text-align: justify;
+    text-align: left;
 }
 
 .hs-form input[type="radio"]
